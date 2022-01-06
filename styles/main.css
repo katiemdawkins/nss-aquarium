@@ -1,0 +1,55 @@
+body {
+    background-color: darkcyan;
+    color: white;
+}
+
+header {
+    border: 1px black solid;
+    text-align: center;
+}
+
+.fishCollection {
+    border: 4px whitesmoke solid;
+    margin: 10px;
+}
+
+.locations{
+    border: 4px lime solid;
+    margin: 10px;
+}
+
+aside {
+    border: 4px brown solid;
+    float: right; 
+    flex-wrap: nowrap;
+}
+
+section {
+    float: left; 
+    display: flex;
+}
+
+.fishCards{
+    border: 3px pink solid;
+    display:flex;
+    margin: 5px 10px;
+}
+
+.fishDets{
+    border: 3px yellow solid;
+    margin: 10px;
+}
+
+
+img {
+    width: 200px;
+    height:150px;
+}
+
+h2{
+    border: 1px black solid;
+    text-align: center;
+}
+
+
+
