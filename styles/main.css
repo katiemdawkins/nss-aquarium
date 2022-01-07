@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    font-size: x-large;
+    font-size: 2em;
     padding: 10px;
     font-family: 'Righteous', 'cursive';
     letter-spacing: 0.3em;
@@ -57,11 +57,20 @@ h2{
     text-align: center;
     margin: 20px;
     font-family: 'Righteous', 'cursive';
+    font-size: 1.5em;
    
 }
 
 .fixIt {
     display:flex;
     font-family: 'Righteous', 'cursive';
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: yellow;
 }
 
