@@ -5,37 +5,33 @@ body {
 }
 
 header {
-    border: 1px black solid;
     text-align: center;
+    padding: 10px;
 }
 
 .fishCollection {
     border: 4px whitesmoke solid;
     margin: 10px;
+    width: 40%;
 }
 
 .locations{
-    border: 4px lime solid;
+    border: 4px whitesmoke solid;
     margin: 10px;
+    width: 33%;
 }
 
 aside {
-    border: 4px brown solid;
-    background-color: seagreen;
-    float: right; 
-    position: fixed;
-    x-index: 1;
-    right: 0;
-    overflow-x: hidden;
-    margin-left: 25px;
+    border: 4px whitesmoke solid;
+    margin: 10px;
+    width: 25%;
 }
 
 section {
-    float: left;
+    
 }
 
 .fishCards{
-    border: 3px pink solid;
     display:flex;
     flex-wrap: wrap;
     margin: 5px 10px;
@@ -54,12 +50,11 @@ img {
 }
 
 h2{
-    border: 1px black solid;
     text-align: center;
 }
 
-fixIt {
+.fixIt {
     display:flex;
-    flex-wrap: wrap;
+    
 }
 
