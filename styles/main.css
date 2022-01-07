@@ -25,6 +25,7 @@ header {
     border: 4px whitesmoke solid;
     margin: 10px;
     flex: 2;
+    padding: 1em;
 }
 
 aside {
@@ -58,12 +59,15 @@ h2{
     margin: 20px;
     font-family: 'Righteous', 'cursive';
     font-size: 1.5em;
-   
 }
 
 .fixIt {
     display:flex;
     font-family: 'Righteous', 'cursive';
+}
+
+a:link{
+    color: whitesmoke;
 }
 
 a:visited {
@@ -74,3 +78,20 @@ a:hover {
     color: yellow;
 }
 
+a {
+    font-size: 20px;
+    margin-top: 1.5em;
+}
+
+.locationCards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.locationCards{
+    border: 2px yellow solid;
+    margin: 1em;
+    padding: 1em;
+}
